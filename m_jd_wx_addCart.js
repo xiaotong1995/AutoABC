@@ -1,3 +1,9 @@
+/*
+
+[Script]
+cron "10 10 10 10 *" script-path=m_jd_wx_addCart.js, tag=M加购有礼
+ */
+
 let mode = __dirname.includes('magic')
 const {Env} = mode ? require('../magic') : require('./magic')
 const $ = new Env('M加购有礼');
